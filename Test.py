@@ -43,4 +43,4 @@ def color_positive_red(val):
 col1, col2, col3 = st.columns([30, 30, 30])
 with col1:
     st.subheader('Global Bonds')
-    st.dataframe(openbb.economy.glbonds())
+    st.dataframe(openbb.economy.glbonds)
