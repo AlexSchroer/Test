@@ -1,4 +1,4 @@
-mport streamlit as st
+import streamlit as st
 import pandas as pd
 from openbb_terminal.sdk import openbb
 from openbb_terminal.config_terminal import theme  # noqa: F401
